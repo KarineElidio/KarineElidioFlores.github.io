@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1150px;
+  margin: auto;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.im1 {
+  width: 10%;
+  height: 12%;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.l1 {
+  list-style: none;
+  margin-right: 30px;
+}
+
+a {
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-style: oblique;
+  text-decoration: none;
+  font-weight: bold;
+}
+.b1 {
+  background-color: rgb(222, 199, 211);
+  padding: 6px 3px;
+  margin-left: 35px;
+}
+.b2 {
+  background-color: rgb(222, 199, 211);
+  padding: 6px 3px;
+}
+
+.b3 {
+  background-color: rgb(222, 199, 211);
+  padding: 6px 3px;
+}
+.imagem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.im2 {
+  width: 30%;
+  height: 30%;
+  margin-top: 30px;
+}
+h1 {
+  margin-top: 50px;
+  margin-bottom: 5px;
+  color: crimson;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+p {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+.u1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  padding-left: 35px;
+}
+.u1 > li {
+  list-style: circle;
+}
+
+.rodape {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  height: 30px;
+  padding-top: 5px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(198, 160, 114);
+}
